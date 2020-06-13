@@ -1,30 +1,88 @@
-## Welcome to GitHub Pages
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
 
-You can use the [editor on GitHub](https://github.com/muskanbohra/Hello-world/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../21.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
 
-### Markdown
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+ul li{
+	display: inline-block;
+}
 
-```markdown
-Syntax highlighted code block
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
 
-# Header 1
-## Header 2
-### Header 3
+}
 
-- Bulleted
-- List
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+}
+.1 img{
+	float: left;
+	width: 150px;
+	height: auto;
+} 
 
-1. Numbered
-2. List
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
 
-**Bold** and _Italic_ and `Code` text
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 
-[Link](url) and ![Image](src)
-```
+.title h1{
+	color: #fff;
+	font-size: 70px
+}
+
+.button{
+	position: absolute;
+	top: 63%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6x ease;
+
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
